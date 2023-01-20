@@ -1,6 +1,6 @@
 import { request } from "../request";
 
-export type getAllMerchantsResponse = {
+export type getAllMerchantsResponse = Array<{
     status: {
         verified: boolean
         feedback: string
@@ -15,6 +15,6 @@ export type getAllMerchantsResponse = {
     updatedAt: string
     deleted: boolean
     used: boolean
-}
+}>
 
 export const getAllMerchants = () => request.get<getAllMerchantsResponse>('https://cat-fact.herokuapp.com/facts')
