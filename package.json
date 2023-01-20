@@ -1,6 +1,6 @@
 {
   "name": "@mayntri/sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "homepage": "http://mayntri.github.io/sdk",
   "scripts": {
